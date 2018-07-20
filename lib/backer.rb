@@ -3,21 +3,21 @@ require 'pry'
 class Backer
   attr_accessor :name
 
-  @@all = []
+  @@project = []
 
   def self.all
-    @@all
+    @@project
   end
 
   def initialize(name)
     @name = name
-    @@all << self
+    @@project << self
   end
 
 
 
   def back_project(project)
-    
+    @@project
 
   end
 
