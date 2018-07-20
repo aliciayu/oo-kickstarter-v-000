@@ -3,7 +3,7 @@ require 'pry'
 class Backer
   attr_accessor :name
 
-  @back_project = []
+  #@back_project = []
 
   def self.all
     @back_project
@@ -11,7 +11,7 @@ class Backer
 
   def initialize(name)
     @name = name
-    #@back_project = []
+    @back_project = []
     @back_project << self
   end
 
